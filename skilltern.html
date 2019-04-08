@@ -1,0 +1,84 @@
+<!Doctype html>
+<html lang="en-us">
+    <head>
+        <title>Skilltern</title>
+        <style>
+            
+            body,html{
+                height: 100%;
+                margin: 0;
+            }
+
+            #container{
+                position: relative;
+            }
+
+            #text{
+                position: absolute;
+                top: 5cm;
+                left: 3cm;
+                font-weight: bold;
+                font-size: 0.7cm;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: black;
+            }
+
+            #input{
+                position: absolute;
+                right: 2cm;
+                top: 3.5cm;
+                background: rgba(107, 106, 106, 0.75);
+                height: 6.5cm;
+                width: 7cm;
+            }
+        
+            img{
+                width: 100%;
+                height: 14cm;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #button{
+                position: absolute;
+                background-color: rgb(45, 45, 100);
+                font-size: 0.5cm;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                border-color: whitesmoke;
+                border-width: 0.03cm;
+                width: 4.5cm;
+                height: 0.8cm;
+                border-radius: 10px;
+                top: 4.6cm;
+                right: 1.28cm;
+            }
+
+            #content{
+                position: absolute;
+                height: 0.6cm;
+                width: 4.5cm;
+                border-radius: 10px;
+                border-color: rgb(128, 127, 127);
+                text-align: left;
+                right: 1.2cm;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <img src="C:\Users\Harsh sharma\Pictures\office1.jpg" alt="office_desk">
+            <div id="text">Get The Skills you need to<br>score an internship</div>
+            <form id="input">
+                <fieldset style="border: none">
+                    <input type-"text" placeholder="Your Name" required="required" id="content" style="top: 1cm"><br><br>
+                    <input type="email" placeholder="Email address" required="required" id="content" style="top: 2.2cm"><br><br>
+                    <input type="number" placeholder="Phone Number" required="required" id="content" style="top: 3.4cm"><br><br>
+                    <input type="submit" id="button" value="Get UpSkilled">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
